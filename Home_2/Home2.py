@@ -14,3 +14,13 @@
 #     for y in range(0, 2):
 #         for z in range(0, 2):
 #             print(f"{x} | {y} | {z} | {int(not (x and y) or z)}")
+
+
+# Задача 3. Даны две строки. Посчитайте сколько раз каждый символ первой строки встречается во второй
+# «one» «onetwonine» - o – 2, n – 3, e – 2
+
+# str1 = input('Введите текст 1: ')
+# str2 = input('Введите текст 2: ')
+
+# for symbol in set(str1):
+#     print(symbol,'-',str2.count(symbol))
